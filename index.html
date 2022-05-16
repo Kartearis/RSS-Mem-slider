@@ -3,9 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>$Title$</title>
+    <link rel="stylesheet" href="styles.css">
+    <title>Meme slider</title>
 </head>
 <body>
-$END$
+    <section class="slider">
+        <div class="slider__viewport">
+            <div class="slider__slide">
+                <img class="slider__image" src="./assets/This_is_fine.webp" alt="This is fine">
+                <p class="slider__text">This is fine...</p>
+            </div>
+            <div class="slider__slide">
+                <img class="slider__image" src="./assets/Elon.jpg" alt="This is fine">
+                <p class="slider__text">Why don't we just launch Earth into space</p>
+            </div>
+        </div>
+
+        <div class="slider__controls">
+            <input class="slider__controls__button" id="slc1" type="radio" name="slider__controls" checked>
+            <input class="slider__controls__button" id="slc2" type="radio" name="slider__controls">
+            <input class="slider__controls__button" id="slc3" type="radio" name="slider__controls">
+            <input class="slider__controls__button" id="slc4" type="radio" name="slider__controls">
+            <input class="slider__controls__button" id="slc5" type="radio" name="slider__controls">
+        </div>
+    </section>
 </body>
 </html>
